@@ -1,5 +1,5 @@
 import { Todo } from '../models/todo.model.js';
-import { createTodoHTML } from './';
+import { createTodoHTML } from './index.js';
 
 let element;
 
