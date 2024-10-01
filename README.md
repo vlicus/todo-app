@@ -18,17 +18,21 @@ This is a simple To Do application where users can manage their tasks efficientl
    ```bash
    git clone https://github.com/vlicus/todo-app.git
 2. Navigate to the project directory:
-  cd todo-app
+   ```bash
+   cd todo-app
 
 4. Install the necessary dependencies:
-  npm install
+   ```bash
+   npm install
 
-5. Run the app locally:
-  npm run dev
+6. Run the app locally:
+   ```bash
+   npm run dev
 
-6. Open your browser and go to:
+8. Open your browser and go to:
    http://localhost:3000
-Demo
+   
+## Demo
 You can view the deployed version of this To Do app on GitHub Pages:
 [Demo](https://vlicus.github.io/todo-app/)
 
