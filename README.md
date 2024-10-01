@@ -2,6 +2,10 @@
 
 This is a simple To Do application where users can manage their tasks efficiently. Users can add new tasks, mark tasks as completed, and filter tasks based on their status (To Do, Pending, or Completed). It also displays a counter of pending tasks.
 
+All modifications made within the app (like adding tasks or marking them as completed) are stored in the browser's local storage. To revert the app to its initial state, follow these steps:
+
+- Right-click anywhere on the app -> **Inspect** -> **Application** -> **Local Storage** -> Delete the "state" entry (this is where all the modifications are stored).
+
 ## Features
 
 - **Add Tasks**: Users can input their tasks in the provided text box, and it will appear in the task list.
